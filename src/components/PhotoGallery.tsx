@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import brideImg from '../assets/images/bride.jpeg';
-import groomImg from '../assets/images/groom.jpeg';
 
 interface PersonPortrait {
   name: string;
@@ -17,7 +15,7 @@ export const PhotoGallery: React.FC = () => {
   const groom: PersonPortrait = {
     name: 'كريم',
     role: 'العريس',
-    imageSrc: groomImg,
+    imageSrc: '../assets/images/groom.jpg',
     fallbackText: 'ك',
     quote: 'في عينيها وجدتُ سكينتي، وموطني، وأجمل أقداري.',
   };
@@ -25,7 +23,7 @@ export const PhotoGallery: React.FC = () => {
   const bride: PersonPortrait = {
     name: 'رضوى',
     role: 'العروس',
-    imageSrc: brideImg,
+    imageSrc: '../assets/images/bride.jpg',
     fallbackText: 'ر',
     quote: 'معه أزهرت أحلامي، وبجواره تبدأ أجمل حكايات السعادة.',
   };
