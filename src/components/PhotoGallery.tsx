@@ -23,7 +23,7 @@ export const PhotoGallery: React.FC = () => {
   const bride: PersonPortrait = {
     name: 'رضوى',
     role: 'العروس',
-    imageSrc: '../../public/images/bride.jpeg',
+    imageSrc: '/images/bride.jpeg',
     fallbackText: 'ر',
     quote: 'معه أزهرت أحلامي، وبجواره تبدأ أجمل حكايات السعادة.',
   };

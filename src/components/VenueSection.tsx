@@ -51,7 +51,7 @@ export const VenueSection: React.FC = () => {
           <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-[#161311]">
             {!venueImgError ? (
               <img
-                src="../../public/images/venue.jpeg"
+                src="/public/images/venue.jpg"
                 alt="قاعة دايموند للاحتفال بحفل الزفاف"
                 onError={() => setVenueImgError(true)}
                 className="w-full h-full object-cover filter brightness-[0.9] hover:scale-102 transition-transform duration-700"
@@ -62,7 +62,7 @@ export const VenueSection: React.FC = () => {
                 <div className="w-16 h-16 rounded-full border border-[#d4af37] flex items-center justify-center mb-3">
                   <span className="text-[#d4af37] text-2xl">🏛️</span>
                 </div>
-                <h3 className="font-amiri text-2xl text-[#f7e7ce]">قاعة دايموند</h3>
+                <h3 className="font-amiri text-2xl text-[#f7e7ce]">قاعة دايموند </h3>
                 <p className="text-xs text-[#d4af37] font-cairo mt-1">المعصرة، القاهرة</p>
               </div>
             )}
