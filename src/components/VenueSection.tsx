@@ -51,7 +51,7 @@ export const VenueSection: React.FC = () => {
           <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-[#161311]">
             {!venueImgError ? (
               <img
-                src="/src/assets/images/luxury_wedding_ballroom_1793783332013.jpg"
+                src="/public/images/venue.jpeg"
                 alt="قاعة دايموند للاحتفال بحفل الزفاف"
                 onError={() => setVenueImgError(true)}
                 className="w-full h-full object-cover filter brightness-[0.9] hover:scale-102 transition-transform duration-700"
@@ -71,7 +71,7 @@ export const VenueSection: React.FC = () => {
             {/* Floating Venue Tag */}
             <div className="absolute top-4 right-4">
               <span className="px-4 py-1.5 rounded-full bg-[#0f0e0d]/85 backdrop-blur-md border border-[#d4af37]/50 text-xs font-cairo font-semibold text-[#f7e7ce]">
-                القاعة الرسمية للزفاف
+                القاعة  للزفاف
               </span>
             </div>
           </div>
