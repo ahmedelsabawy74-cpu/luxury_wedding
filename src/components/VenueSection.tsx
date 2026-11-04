@@ -51,7 +51,7 @@ export const VenueSection: React.FC = () => {
           <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden bg-[#161311]">
             {!venueImgError ? (
               <img
-                src="/public/images/venue.jpg"
+                src="/src/assets/images/luxury_wedding_ballroom_1793783332013.jpg"
                 alt="قاعة دايموند للاحتفال بحفل الزفاف"
                 onError={() => setVenueImgError(true)}
                 className="w-full h-full object-cover filter brightness-[0.9] hover:scale-102 transition-transform duration-700"
