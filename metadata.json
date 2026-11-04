@@ -1,0 +1,6 @@
+{
+  "name": "Karim & Adwaa - Luxury Wedding Invitation",
+  "description": "An interactive luxury digital wedding invitation celebrating Karim & Adwaa on November 11, 2026 at Helwan Hall, Cairo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
