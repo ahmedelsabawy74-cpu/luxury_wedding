@@ -15,7 +15,7 @@ export const PhotoGallery: React.FC = () => {
   const groom: PersonPortrait = {
     name: 'كريم',
     role: 'العريس',
-    imageSrc: '/images/groom.jpeg',
+    imageSrc: '../../public/images/groom.jpeg',
     fallbackText: 'ك',
     quote: 'في عينيها وجدتُ سكينتي، وموطني، وأجمل أقداري.',
   };
@@ -23,7 +23,7 @@ export const PhotoGallery: React.FC = () => {
   const bride: PersonPortrait = {
     name: 'رضوى',
     role: 'العروس',
-    imageSrc: '/images/bride.jpeg',
+    imageSrc: '../../public/images/bride.jpeg',
     fallbackText: 'ر',
     quote: 'معه أزهرت أحلامي، وبجواره تبدأ أجمل حكايات السعادة.',
   };
