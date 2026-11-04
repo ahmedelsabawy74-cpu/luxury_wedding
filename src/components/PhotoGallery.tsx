@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import brideImg from '../assets/images/bride.jpg';
-import groomImg from '../assets/images/groom.jpg';
+import brideImg from '../assets/images/bride.jpeg';
+import groomImg from '../assets/images/groom.jpeg';
 
 interface PersonPortrait {
   name: string;
