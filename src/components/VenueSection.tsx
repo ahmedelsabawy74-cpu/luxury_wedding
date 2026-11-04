@@ -71,7 +71,7 @@ export const VenueSection: React.FC = () => {
             {/* Floating Venue Tag */}
             <div className="absolute top-4 right-4">
               <span className="px-4 py-1.5 rounded-full bg-[#0f0e0d]/85 backdrop-blur-md border border-[#d4af37]/50 text-xs font-cairo font-semibold text-[#f7e7ce]">
-                القاعة  للزفاف
+                القاعة الرسمية للزفاف
               </span>
             </div>
           </div>
